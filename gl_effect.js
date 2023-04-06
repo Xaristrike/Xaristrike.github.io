@@ -28,5 +28,5 @@ setInterval(function() {
   glitchText();
   setTimeout(function() {
     clearGlitch();
-  }, 100);
-}, 500);
+  }, 10);
+}, 180);
