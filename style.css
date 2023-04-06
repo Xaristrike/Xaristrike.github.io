@@ -220,4 +220,5 @@ nav ul li a:hover {
 
 .menu .active {
   background-color: #4CAF50;
+  color: red;
 }
