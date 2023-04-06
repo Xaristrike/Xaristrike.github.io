@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.background {
+	background-color: black;
+	background-image: url('back_image.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 150vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	text-align: center;
+	color: darkgoldenrod;
+	padding: 1px;
+}
+
+.name-section {
+	padding: 20px;
+	background-color: #3d3635;
+	color: orange;
+}
+
+.name-section h1 {
+	font-size: 88px;
+	margin-bottom: 1px;
+}
+
+.profile-pic {
+	display: block;
+	margin: 0px auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.quote-section {
+	background-color: #3d3635;
+	color: orange;
+	padding: 10px;
+}
+
+.quote-section blockquote {
+	font-size: 50px;
+	font-style: italic;
+	margin-bottom: 2px;
+}
+
+.quote-section blockquote footer {
+	font-size: 30px;
+	font-style: normal;
+}
+
+.interests-section {
+	background-color: #3d3635;
+	color: darkorange;
+	padding: 1px;
+}
+
+.interests-section h2 {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.interests-section ul {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.interests-section li {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.contact-section {
+	background-color: #3d3635;
+	color: darkorange;
+	padding: 1px;
+}
+
+.contact-section h2 {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.contact-section p {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+a {
+	color: gold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.projects-body {
+	background-color: #000000;
+	background-image: url('path/to/background-image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.projects-container {
+	max-width: 800px;
+	text-align: center;
+	padding: 20px;
+}
+
+.projects-header {
+	color: darkorange;
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.projects-content {
+	color: darkgoldenrod;
+	font-size: 2rem;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #1a1a1a;
+	color: #ffffff;
+	padding: 20px;
+}
+
+h1 {
+	color: darkorange;
+	text-align: center;
+	flex-grow: 1;
+	font-size: 2rem;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+
+nav ul li a {
+	color: darkgoldenrod;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.home-image {
+	background-image: url('back_image.jpg');
+	background-size: cover;
+	height: calc(100vh - 70px);
+}
+
+
+
+
