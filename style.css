@@ -175,7 +175,7 @@ nav ul li a:hover {
 .home-image {
 	background-image: url('back_image.jpg');
 	background-size: cover;
-	height: calc(100vh - 70px);
+	height: calc(100vh - 20px);
 }
 
 .menu {
