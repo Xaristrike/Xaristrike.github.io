@@ -12,7 +12,7 @@ body {
 
 .background {
 	background-color: black;
-	background-image: url('back_image.jpg');
+	/* background-image: url('back_image.jpg'); */
 	background-size: cover;
 	background-position: center;
 	height: 150vh;
