@@ -12,7 +12,6 @@ body {
 }
 
 .background {
-	/* background-color: black; */
 	background-image: url('../assets/space_stars.gif');
 	background-size: cover;
 	background-position: center;
@@ -57,11 +56,6 @@ body {
 	font-style: italic;
 	margin-bottom: 2px;
 }
-
-/* .quote-section blockquote footer {
-	font-size: 30px;
-	font-style: normal;
-} */
 
 .interests-section {
 	background-color: #3d3635;
@@ -221,19 +215,4 @@ background-color: #111;
 
 .menu .active {
 	background-color: #3C8C50;
-}
-
-.kali-effect {
-animation: kali-animation 0.5s;
-color: red !important;
-font-size: 120% !important;
-}
-
-@keyframes kali-animation {
-from {
-transform: scale(1);
-}
-to {
-transform: scale(1.2);
-}
 }
