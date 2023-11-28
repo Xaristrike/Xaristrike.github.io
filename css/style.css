@@ -13,7 +13,7 @@ body {
 
 .background {
 	/* background-color: black; */
-	/* background-image: url('space_stars.gif'); */
+	background-image: url('../assets/space_stars.gif');
 	background-size: cover;
 	background-position: center;
 	height: 150vh;
@@ -70,8 +70,8 @@ body {
 }
 
 .interests-section h2 {
-	font-size: 50px;
-	margin-bottom: 10px;
+	font-size: 40px;
+	margin-bottom: 5px;
 }
 
 .interests-section ul {
@@ -80,7 +80,7 @@ body {
 }
 
 .interests-section li {
-	font-size: 30px;
+	font-size: 25px;
 	margin-bottom: 20px;
 }
 
@@ -91,12 +91,12 @@ body {
 }
 
 .contact-section h2 {
-	font-size: 50px;
+	font-size: 40px;
 	margin-bottom: 10px;
 }
 
 .contact-section p {
-	font-size: 30px;
+	font-size: 25px;
 	margin-bottom: 20px;
 }
 
@@ -111,7 +111,7 @@ a:hover {
 
 .projects-body {
 	background-color: #000000;
-	background-image: url('space_stars.gif');
+	background-image: url('../assets/space_stars.gif');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
@@ -185,7 +185,7 @@ nav ul li a:hover {
 }
 
 .home-image {
-	background-image: url('space_stars.gif');
+	background-image: url('../assets/space_stars.gif');
 	background-size: cover;
 	height: calc(100vh - 20px);
 }
